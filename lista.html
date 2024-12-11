@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Agustin.Prf" />
+        <title>Lista de la compra</title>
+        <script src="/lista.js" defer></script>
+        <link rel="stylesheet" type="text/css" href="lista.css" />       
+    </head>
+    <body>
+        <h1> Lista de la compra</h1>
+        <ul id="lista">          
+          <li> Manzana</li>  
+        </ul>
+        <form >
+        <label for="idArticulo">Artículo:</label>
+    <input list="idListaArticulos" id="idArticulo" name="articulos">
+
+    <datalist id="idListaArticulos">
+        <option value="Manzana">
+        <option value="Banana">
+        <option value="Cereza">
+        <option value="Mango">
+        <option value="Uva">
+    </datalist>
+        <input id="idAnadir" type="button" value="Añadir" />
+    </form>
+    </body>
+</html>
